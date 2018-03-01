@@ -87,42 +87,40 @@ function processType(params, message) {
     let finalOrder = [];
     diceOrder.forEach((die) => {
         switch (die) {
-            case 'yellow':
-            case 'y':
-            case 'proficiency':
-            case 'pro':
+            case 'amarelo':
+            case 'am':
+            case 'proficiencia':
+            case 'p':
                 finalOrder.push('yellow');
                 break;
-            case 'green':
-            case 'g':
-            case 'ability':
-            case 'a':
+            case 'verde':
+            case 'vd':
+            case 'habilidade':
+            case 'h':
                 finalOrder.push('green');
                 break;
-            case 'blue':
+            case 'azul':
+            case 'az':
+            case 'bonus':
             case 'b':
-            case 'boost':
-            case 'boo':
                 finalOrder.push('blue');
                 break;
-            case 'red':
+            case 'vermelho':
+            case 'vm':
+            case 'resistencia':
             case 'r':
-            case 'challenge':
-            case 'c':
                 finalOrder.push('red');
                 break;
-            case 'purple':
-            case 'p':
-            case 'difficulty':
+            case 'roxo':
+            case 'rx':
+            case 'dificuldade':
             case 'd':
                 finalOrder.push('purple');
                 break;
-            case 'black':
-            case 'blk':
-            case 'k':
-            case 's':
-            case 'sb':
-            case 'setback':
+            case 'preto':
+            case 'pr':
+            case 'o':
+            case 'obstaculo':
                 finalOrder.push('black');
                 break;
             case 'white':
